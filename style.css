@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+  .w-100 {
+    width: 100% !important;
+    height: 130vh;
+  }
+  @media (min-width: 1200px){
+  .responsive-font {
+    font-size: 40px;
+    padding: 80px;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 1199.98px) {
+
+    .responsive-font{
+        font-size: 20px;
+        padding: 20px;
+        padding-top: 30px;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 50vh;
+    }
+
+}
+
+.user-img{
+    padding-top: 6px;
+    
+}
+#store {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+#store2{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+.container-fluid .card {
+    position: relative;
+	height: 500px;
+	margin: 20px;
+	transition: 0.5s;
+}
+#signup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+
+.signup .row{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Coming soon page */
+
+
